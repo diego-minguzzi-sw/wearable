@@ -13,6 +13,7 @@ public:
 
   const ::std::string& serialDevice() const { return _serialDevice; }
   int baudRate() const { return _baudRate; }
+  const ::std::string& dumpFile() const { return _dumpFile; }
 
   ::std::string toString() const;
 
